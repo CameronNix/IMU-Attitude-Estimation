@@ -56,7 +56,7 @@ Each rotation axis is filtered independently, using the sensor pairing appropria
 
 ## Results
 
-![Filtered vs. raw pitch, roll, and yaw](docs/ENG_PROJECTS/IMU/pitch_roll_yaw_comparison.png)
+<img src="pitch_roll_yaw_comparison.png" alt="Filtered vs. raw pitch, roll, and yaw" width="700">
 
 *Filtered orientation estimate (red) vs. raw, unfiltered sensor-derived angle (blue) for all three axes, during live motion. The filtered signal tracks real motion while rejecting sensor noise and short-duration outliers — most visible on the Roll axis, where the raw signal spikes sharply near the ±180° angle-wraparound boundary while the filtered estimate remains stable.*
 
